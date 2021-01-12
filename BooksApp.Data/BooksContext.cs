@@ -7,7 +7,7 @@ namespace BooksApp.Data
     public class BooksContext : DbContext
     {
         private const string connectionsString =
-                             "Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = BooksAppData";
+                             "Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = BooksApp.Data";
 
         public DbSet<Author> Authors { get; set; }
         public DbSet<Publisher> Publishers { get; set; }
